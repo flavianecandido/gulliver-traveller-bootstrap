@@ -1,0 +1,35 @@
+.text-reset {
+    text-decoration: none;
+}
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    background-color: #232541;
+    color: #FFFFFF;
+}
+
+.container {
+    padding: 1rem;
+    color: #FFFFFF;
+}
+
+.titulo {
+    letter-spacing: 2px;
+}
+
+.me-4 i {
+    font-size: 21.5px;
+    margin-top: 10px;
+}
+
+.me-4 i:hover {
+    transition: 0.4s;
+    opacity: 0.8;
+}
+
+.lista:hover {
+    text-decoration: underline;
+    transition: 0.4s;
+    opacity: 0.8;
+}
