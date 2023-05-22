@@ -1,6 +1,126 @@
-.text-reset {
-    text-decoration: none;
+* {
+    font-family: "Montserrat", sans-serif;
 }
+/* INICIO ESTILIZAÇÃO NAVBAR */
+.navbar {
+    padding: 0;
+}
+
+.menu__container {
+    flex-grow: 0.5;
+}
+
+.menu ul{
+     justify-content: center;
+ 
+}
+
+.link-nav {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.link-nav:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+    transition: 0.4s;
+    opacity: 0.8;
+}
+
+.container-fluid {
+    background-color: #232541;
+    /* padding: 1.5rem; */
+    padding: 20px 40px;
+}
+
+.logo h1 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.login img {
+  height: 25px;
+  width: auto;
+  position: relative;
+  padding-inline: 5px;
+}
+
+.login a {
+    margin-left: 7px;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  .login:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+    transition: 0.4s;
+    opacity: 0.8;
+  }
+/* FIM ESTILIZAÇÃO NAVBAR */
+
+
+
+/* INICIO CONTEUDO PRINCIPAL */
+main {
+    background-color: #F2D055;
+    width: 100%;
+    padding: 40px;
+}
+
+.principal {
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
+    align-items: center;
+}
+
+.titulo {
+    padding: 60px;
+}
+
+.titulo__principal {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.botao:hover {
+    background-color: #E36433;
+    border-color: #E36433;
+    transition: 0.4s;
+    opacity: 0.8;
+}
+
+.form {
+    width: 50%;
+   margin-left: 200px;
+}
+
+span {
+    font-weight: 900;
+}
+
+.imagem__principal img {
+    /* background-image: url(../images/banner/imagem\ avião.png); */
+    background-repeat: no-repeat;
+}
+
+
+.botao{
+    background-color: #E36433;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    border-color: #E36433;
+}
+
+/* FIM CONTEÚDO PRINCIPAL */
+
+/* ÍNICIO ESTILIZAÇÃO FOOTER */
 
 footer {
     font-family: "Montserrat", sans-serif;
@@ -14,16 +134,20 @@ footer {
     color: #FFFFFF;
 }
 
-.titulo {
+.text-reset {
+    text-decoration: none;
+}
+
+.titulo__footer {
     letter-spacing: 2px;
 }
 
-.me-4 i {
+.icones__midias__sociais i {
     font-size: 21.5px;
     margin-top: 10px;
 }
 
-.me-4 i:hover {
+.icones__midias__sociais i:hover {
     transition: 0.4s;
     opacity: 0.8;
 }
@@ -32,4 +156,18 @@ footer {
     text-decoration: underline;
     transition: 0.4s;
     opacity: 0.8;
+}
+
+/* FIM ESTILIZAÇÃO FOOTER */
+
+@media screen and (max-width:999px) {
+    main {
+        width: 100%;
+    }
+
+   .principal {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+   }
 }
