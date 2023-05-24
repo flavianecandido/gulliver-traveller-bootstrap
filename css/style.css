@@ -67,7 +67,7 @@
 /* INICIO CONTEUDO PRINCIPAL */
 main {
     background-color: #F2D055;
-    width: 100%;
+    /* width: 100%; */
     padding: 40px;
 }
 
@@ -109,28 +109,27 @@ span {
     background-repeat: no-repeat;
 }
 
-
-/* .botao{
-    background-color: #E36433;
-    color: #FFFFFF;
-    font-size: 18px;
-    font-weight: 400;
-    border-color: #E36433;
-} */
-
 .input-wrapper {
     position: relative;
     display: inline-block;
   }
 
 #meu-input {
-    padding-right: 100px;
+    /* padding-right: 100px;
     border-radius: 100px;
     height: 73px;
     width: 534px;
     border-color: #ffffff;
-    outline: none;
+    outline: none; */
 
+    padding-right: 100px;
+    border-radius: 100px;
+    height: 80px;
+    width: 600px;
+    border-color: #ffffff;
+    outline: none;
+    font-size: 22px;
+    padding-left: 50px;
   }
 
   #meu-botao {
@@ -141,11 +140,11 @@ span {
     color: #FFFFFF;
     font-weight: 400;
     position: absolute;
-    top: 13px;
-    right: 5px;
+    top: 10px;
+    right: -160px;
     border-radius: 100px;
-    height: 47px;
-    width: 172px;
+    height: 60px;
+    width: 220px;
     border-color: #E36433;
     transition: background-color 0.3s ease;
 
@@ -196,6 +195,11 @@ footer {
     text-decoration: underline;
     transition: 0.4s;
     opacity: 0.8;
+}
+
+.teste-caixa {
+    display: flex;
+    justify-content: center;
 }
 
 /* FIM ESTILIZAÇÃO FOOTER */
