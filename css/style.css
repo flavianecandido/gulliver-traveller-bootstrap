@@ -163,15 +163,15 @@ span {
 /* ÍNICIO ESTILIZAÇÃO FOOTER */
 
 footer {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    background-color: #232541;
-    color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  background-color: #232541;
+  color: #ffffff;
 }
 
 .container {
-    padding: 1rem;
-    color: #FFFFFF;
+  padding: 1rem;
+  color: #ffffff;
 }
 
 .text-reset {
