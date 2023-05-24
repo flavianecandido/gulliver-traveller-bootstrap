@@ -88,12 +88,12 @@ main {
     margin-bottom: 2rem;
 }
 
-.botao:hover {
+/* .botao:hover {
     background-color: #E36433;
     border-color: #E36433;
     transition: 0.4s;
     opacity: 0.8;
-}
+} */
 
 .form {
     width: 50%;
@@ -110,13 +110,53 @@ span {
 }
 
 
-.botao{
+/* .botao{
     background-color: #E36433;
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 400;
     border-color: #E36433;
-}
+} */
+
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+
+#meu-input {
+    padding-right: 100px;
+    border-radius: 100px;
+    height: 73px;
+    width: 534px;
+    border-color: #ffffff;
+    outline: none;
+
+  }
+
+  #meu-botao {
+    background-color: #E36433;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-weight: 400;
+    position: absolute;
+    top: 13px;
+    right: 5px;
+    border-radius: 100px;
+    height: 47px;
+    width: 172px;
+    border-color: #E36433;
+    transition: background-color 0.3s ease;
+
+  }
+
+  #meu-botao:hover {
+    background-color: #E36433;
+    border-color: #E36433;
+    transition: 0.4s;
+    opacity: 0.8;
+  }
 
 /* FIM CONTEÚDO PRINCIPAL */
 
