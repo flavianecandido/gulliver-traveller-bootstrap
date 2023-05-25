@@ -69,6 +69,7 @@ main {
     background-color: #F2D055;
     /* width: 100%; */
     padding: 40px;
+    overflow-x: hidden;
 }
 
 .principal {
@@ -112,6 +113,7 @@ span {
 .input-wrapper {
     position: relative;
     display: inline-block;
+    margin-right: 200px
 
   }
 
@@ -131,6 +133,7 @@ span {
     outline: none;
     font-size: 22px;
     padding-left: 50px;
+    
   }
 
   #meu-botao {
@@ -148,6 +151,7 @@ span {
     width: 220px;
     border-color: #E36433;
     transition: background-color 0.3s ease;
+    margin-right: 100px
 
   }
 
@@ -240,8 +244,8 @@ footer {
  .input-wrapper input{
      margin-right: 200px;
     }
-    #meu-botao{
-     margin-right: 90px;
+#meu-botao{
+    margin-right: 90px;
 
     } 
 
@@ -257,7 +261,7 @@ footer {
 }
 
 .input-wrapper input{
- margin-right: 200px;
+ margin-right: 10px;
 }
 
 #meu-input {
@@ -265,12 +269,12 @@ footer {
  font-size: 16px;
 }
 #meu-botao{
-margin-right: 180px;
+margin-right: 200px;
 width: 100px;
 font-size: 12px;
 } 
 .imagem__principal img {
- width: 500px; 
+ width: 400px; 
  
 }} 
 
