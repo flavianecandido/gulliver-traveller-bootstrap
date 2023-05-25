@@ -151,7 +151,7 @@ span {
     width: 220px;
     border-color: #E36433;
     transition: background-color 0.3s ease;
-    margin-right: 100px
+    margin-right: 70px
 
   }
 
@@ -241,11 +241,17 @@ footer {
 
 
 @media screen and (max-width: 870px) {
+
+    .titulo__principal{
+        font-size: 36px;
+        margin-right: 200px;
+       }
+
  .input-wrapper input{
-     margin-right: 200px;
+     margin-left: 30px;
     }
 #meu-botao{
-    margin-right: 90px;
+    margin-right: 60px;
 
     } 
 
@@ -269,7 +275,7 @@ footer {
  font-size: 16px;
 }
 #meu-botao{
-margin-right: 200px;
+margin-right: 190px;
 width: 100px;
 font-size: 12px;
 } 
