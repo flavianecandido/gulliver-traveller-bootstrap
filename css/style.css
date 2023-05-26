@@ -210,11 +210,11 @@ footer {
 /* FIM ESTILIZAÇÃO FOOTER */
 
 @media screen and (max-width:999px) {
-    main {
+    /* main {
         width: 100%;
-    }
+    } */
 
-   .principal {
+   /* .principal {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -222,13 +222,13 @@ footer {
 
    .imagem__principal img {
     margin-right: 200px;
-   }
+   } */
 }
 
 /* TESTE */
 
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
 
     .imagem__principal img{
      margin-right: 200px;
@@ -282,5 +282,58 @@ font-size: 12px;
 .imagem__principal img {
  width: 400px; 
  
-}} 
+}}  */
 
+@media screen and (min-width: 0px) {
+    .principal {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+       }
+    
+    .titulo__principal {
+        font-size: 1.5rem;
+    }
+
+    .imagem__principal img {
+        width: 370px;
+        height: auto;
+    }
+
+    #meu-input {
+        width: 360px;
+    }
+
+    #meu-botao {
+        position: static;
+        margin-right: 0;
+        margin: 10px 70px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .principal {
+        flex-direction: row;
+        padding: 0 70px;
+    }
+
+    .titulo h1 {
+        width: 360px;
+    }
+    
+    .titulo {
+        padding: 0;
+    }
+
+    .form {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    
+}
