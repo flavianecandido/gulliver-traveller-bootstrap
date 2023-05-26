@@ -29,7 +29,6 @@
 
 .container-fluid {
     background-color: #232541;
-    /* padding: 1.5rem; */
     padding: 20px 40px;
 }
 
@@ -67,15 +66,12 @@
 /* INICIO CONTEUDO PRINCIPAL */
 main {
     background-color: #F2D055;
-    /* width: 100%; */
     padding: 40px;
     overflow-x: hidden;
 }
 
 .principal {
     display: flex;
-    /* display: grid;
-    grid-template-columns: 50% 50%; */
     align-items: center;
 }
 
@@ -88,13 +84,6 @@ main {
     font-size: 3rem;
     margin-bottom: 2rem;
 }
-
-/* .botao:hover {
-    background-color: #E36433;
-    border-color: #E36433;
-    transition: 0.4s;
-    opacity: 0.8;
-} */
 
 .form {
     width: 50%;
@@ -112,13 +101,6 @@ span {
   }
 
 #meu-input {
-    /* padding-right: 100px;
-    border-radius: 100px;
-    height: 73px;
-    width: 534px;
-    border-color: #ffffff;
-    outline: none; */
-
     padding-right: 100px;
     border-radius: 100px;
     height: 80px;
